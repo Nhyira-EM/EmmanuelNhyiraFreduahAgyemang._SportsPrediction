@@ -20,7 +20,7 @@ def main():
 
     potential = st.number_input('Player Potential out of 100', 1, 100, 1)
     movement_reactions = st.number_input('Player Movement reactions out of 100', 1, 100, 1)
-    passing = st.number_input('Passing out of 100')
+    passing = st.number_input('Passing out of 100',1, 100, 1)
     wage_eur = st.number_input('Player Wage in Euros')
     value_eur = st.number_input('Player Value in Euros')
     dribbling = st.number_input('Dribbling out of 100', 1, 100, 1)
