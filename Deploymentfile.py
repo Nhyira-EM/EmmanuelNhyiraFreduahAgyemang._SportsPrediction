@@ -5,7 +5,7 @@ import numpy as np
 import pickle
 from huggingface_hub import hf_hub_download
 
-model_path = hf_hub_download(repo_id="Nhyira/FIFA-Model", filename="fifa_model.pkl")
+model_path = hf_hub_download(repo_id="Nhyira-EM/FIFA-Model", filename="fifa_model.pkl")
 with open(model_path, 'rb') as f:
     model = pickle.load(f)
 
