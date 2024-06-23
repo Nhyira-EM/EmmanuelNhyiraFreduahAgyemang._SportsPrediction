@@ -14,8 +14,8 @@ with open(model_path, 'rb') as f:
 def main():
     st.title("FIFA Player Rating Predictor")
     html_temp = """
-    <div style="background:#025246 ;padding:10px">
-    <h2 style="color:white;text-align:center;">Sports Prediction App </h2>
+    <div style="background:#ADD8E6; padding:10px">
+    <h2 style="color:black; text-align:center;">Sports Prediction App</h2>
     </div>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
