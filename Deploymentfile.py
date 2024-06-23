@@ -22,20 +22,20 @@ def main():
 
 
     potential = st.number_input('Player Potential out of 100',1, 100, 1)
-    value_eur = st.number_input('Player Value in Euros')
-    wage_eur = st.number_input('Player Wage in Euros')
     movement_reactions = st.number_input('Player Movement reactions out of 100',1, 100, 1)
     passing = st.number_input('Passing out of 100')
+    wage_eur = st.number_input('Player Wage in Euros')
+    value_eur = st.number_input('Player Value in Euros')
     dribbling = st.number_input('Dribbling out of 100',1, 100, 1)
 
 
     if st.button('Predict'):
         data = {
             'potential': [potential],
-            'value_eur': [value_eur],
-            'wage_eur': [wage_eur],
             'movement_reactions': [movement_reactions],
             'passing': [passing],
+            'wage_eur': [wage_eur],
+            'value_eur': [value_eur],
             'dribbling': [dribbling]
         }
 
